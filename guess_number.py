@@ -12,6 +12,6 @@ while True:
         print('You Guessed!') #print the winning message
         break
     elif guess > number:
-        print('Too much!')
+        print('Too much!') #print a hint
     elif guess < number:
-        print('Too low!')
+        print('Too low!') #print a hint
